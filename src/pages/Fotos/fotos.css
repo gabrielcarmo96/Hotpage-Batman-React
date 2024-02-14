@@ -1,0 +1,68 @@
+#banner-fotos {
+    background-image: url('https://wallpapercave.com/wp/wp10289960.jpg');
+    background-position: 20% 15% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+}
+
+.fotos, .fotos-box {
+    justify-content: flex-end;
+}
+
+.fotos-box {
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+    -webkit-column-gap: 40px;
+    column-gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px 0;
+    row-gap: 20px;
+    width: 100%;
+}
+.fotos {
+    border-radius: 20px;
+    box-shadow: 0 0 4px 0 #fff;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    padding: 10px;
+    transition: .3s;
+    width: 95%;
+}
+
+.fotos:hover {
+    transform: scale(1.02); 
+}
+
+.foto1, .foto2, .foto3, .foto4, .foto5, .foto6{
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
+.foto1 {
+    background-image: url(https://img.olhardigital.com.br/wp-content/uploads/2022/02/the-batman-robert-pattinson.jpeg);
+}
+
+.foto2 {
+    background-image: url(https://portalpopline.com.br/wp-content/uploads/2022/02/batman-pre-estreia.jpg);
+}
+
+.foto3 {
+    background-image: url(https://i.ytimg.com/vi/uEySwcw7u5A/maxresdefault.jpg);
+}
+
+.foto4 {
+    background-image: url(https://www.clubmotor.com.br/wp-content/uploads/2022/07/moto-filme-batman.jpg);
+}
+
+.foto5 {
+    background-image: url(https://cdn.vox-cdn.com/thumbor/D-ZAFPdkNgf6_knQQfYC0oNceQ4=/167x0:1517x707/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22932138/the_batman_2022_movie_trailer.jpg);
+}
+
+.foto6 {
+    background-image: url(https://nofilmschool.com/media-library/batman-anatomy1-videosixteenbynine3000-v2.jpg?id=34053233&width=1245&height=700&quality=90&coordinates=2%2C0%2C0%2C0);
+}
